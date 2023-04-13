@@ -1,0 +1,73 @@
+  /* Main component */
+  #photo {
+    width: 60%;
+    border-radius: 50%;
+  }
+  
+  main {
+    text-align: center;
+  }
+  
+  #intro {
+    font-size: 1.5rem;
+  }
+  
+  /* Contact details component */
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.5);
+    margin-bottom: 1.5rem;
+  }
+  
+  section img {
+    vertical-align: middle;
+    margin: 0.2rem;
+  }
+  
+  /* Social links component */
+  aside {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.45);
+  }
+  
+  aside img {
+    width: 2.25rem;
+  }
+  
+  aside a:hover {
+    box-shadow: 0 3px rgba(255, 0, 0, 0.5);
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 582px) {
+    
+    #photo {
+      width: 45%;
+    }
+    section {
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+    aside p {
+      font-size: 1.3rem;
+    }
+  }
+  @media only screen and (min-width: 780px) {
+    #photo {
+      width: 30%;
+    }
+  }
+  /* Desktop Styles */
+  @media only screen and (min-width: 1200px) {
+    #photo {
+      width: 20%;
+      margin: 2rem 0 1.5rem;
+    }
+    section {
+      margin: 2rem 0;
+    }
+  }
