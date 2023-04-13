@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Mulish:wght@300;600&display=swap");
+
+* {
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+  color: white;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: #748294 url("/docs/background.jpeg") 70% no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Header component */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+
+#logo {
+  width: 30%;
+  margin-bottom: 1rem;
+}
+
+nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 100%;
+  text-decoration: none;
+  border: white solid 1px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav a:hover {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+nav img {
+  vertical-align: middle;
+  margin: 0.2rem;
+}
+
+nav img,
+section img {
+  width: 1.5rem;
+}
+
+#photo {
+  width: 60%;
+  border-radius: 50%;
+}
+
+/* Main component */
+main {
+  text-align: center;
+}
+
+#intro {
+  font-size: 1.5rem;
+}
+
+/* Contact details component */
+section {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 0, 0, 0.5);
+  margin-bottom: 1.5rem;
+}
+
+section img {
+  vertical-align: middle;
+  margin: 0.2rem;
+}
+
+/* Social links component */
+aside {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+aside img {
+  width: 2.25rem;
+}
+
+aside a:hover {
+  box-shadow: 0 3px rgba(255, 0, 0, 0.5);
+}
+
+/* Footer component */
+footer {
+  text-align: center;
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 570px) {
+  #logo {
+    width: 15%;
+  }
+  nav a {
+    display: inline-block;
+    width: auto;
+    padding: 0.5rem 1rem;
+  }
+  #photo {
+    width: 45%;
+  }
+  section {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  aside p {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (min-width: 780px) {
+  #logo {
+    width: 10%;
+  }
+  #photo {
+    width: 30%;
+  }
+}
+/* Desktop Styles */
+@media only screen and (min-width: 1000px) {
+  header {
+    flex-direction: row;
+    margin-top: 1.5rem;
+  }
+  #logo {
+    position: fixed;
+    display: inline-block;
+    left: 1.5rem;
+    top: 1.5rem;
+  }
+  nav {
+    position: fixed;
+    display: inline-block;
+    right: 1.5rem;
+  }
+  #photo {
+    width: 20%;
+    margin: 2rem 0 1.5rem;
+  }
+  section {
+    margin: 2rem 0;
+  }
+  footer {
+    margin-top: 0.75rem;
+  }
+}
