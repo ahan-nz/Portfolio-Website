@@ -1,0 +1,54 @@
+/* Main component */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 2rem 1rem;
+    margin: 1rem;
+}
+article img {
+    width: 90%;
+    margin: 1.5rem;
+}
+#link {
+    display: flex;
+    justify-content: center;
+    padding: 0.7rem;
+    margin: 0.7rem;
+    font-size: 1.2rem;
+    border: white solid 1px;
+    transition-duration: 0.4s;
+  }
+#link:hover {
+      background-color: rgba(255, 0, 0, 0.5);
+    }
+ a img {
+        vertical-align: middle;
+        margin: 0 0.5rem;
+        width: 1.5rem;
+      }
+
+/* Tablet Styles */
+@media only screen and (min-width: 582px) {
+section {
+    display: flex;
+    flex-direction: row;
+}
+#link {
+    margin: 0.5rem 2rem;
+}
+}
+/* Desktop Styles */
+@media only screen and (min-width: 1200px) {
+    main {
+        margin-top: 3rem;
+    }
+}

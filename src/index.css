@@ -37,7 +37,9 @@
   aside img {
     width: 2.25rem;
   }
-  
+  aside a {
+    transition-duration: 0.4s;
+  }
   aside a:hover {
     box-shadow: 0 4.5px rgba(255, 0, 0, 0.6);
   }
@@ -73,6 +75,9 @@
   }
   /* Desktop Styles */
   @media only screen and (min-width: 1200px) {
+    main {
+      margin-top: 2rem;
+  }
     #photo {
       width: 20%;
       margin: 2rem 0 1.5rem;
