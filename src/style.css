@@ -9,7 +9,7 @@
 body {
   display: flex;
   flex-direction: column;
-  background: #748294 url("/docs/background.jpeg") 70% no-repeat;
+  background: #748294 url("assets/background.jpeg") 70% no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
