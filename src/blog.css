@@ -1,31 +1,31 @@
-/* Main component */
+/* Main components */
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.3);
-    padding: 2rem 1rem;
-    margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 2rem 1rem;
+  margin: 1rem;
 }
 article:hover {
-    border: white solid 1px;
+  border: white solid 1px;
 }
 article img {
-    width: 85%;
+  width: 85%;
 }
 a {
-text-decoration: none;
+  text-decoration: none;
 }
 
 /* Desktop Styles */
 @media only screen and (min-width: 1000px) {
-    main {
-        margin-top: 3rem;
-    }
+  main {
+    margin-top: 3rem;
+  }
 }
