@@ -6,7 +6,7 @@
 
 [Github Repository](https://github.com/ahan-nz/Portfolio)
 
-[Presentation](
+[Presentation](https://youtu.be/JoZ3GiaAXl0)
 
 ## Purpose of Website
 
