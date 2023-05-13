@@ -4,7 +4,7 @@
 
 [Published Portfolio Website](https://portfolio-1d2s-l4bfgxwfv-ahan-nz.vercel.app)
 
-[Github Repository](https://github.com/ahan-nz/Portfolio)
+[Github Repository](https://github.com/ahan-nz/CA-T1A2-Portfolio)
 
 [Presentation](https://youtu.be/K49xtwHPI8E)
 
